@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
-    <!-- Add your CSS file link here -->
-    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <title>😘</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a paragraph on my website!</p>
-    <!-- Add more HTML elements here as needed -->
-    <p>Shosdfhosdf</p>
-    <!-- Add your JavaScript file link here -->
-    <!-- <script src="script.js"></script> -->
+    <div id="main">
+        <p id="main_title">😘</p>
+        <p id="main_sub">Hi Den Den</p>
+        <button id="main_button">CLICK ME !!!</button>
+    </div>
+
+    <script>
+        // main_button click goes to page2.html
+        document.getElementById("main_button").addEventListener("click", function() {
+            window.location.href = "page2.html";
+        });
+    </script>
 </body>
 </html>
