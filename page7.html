@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>😘</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div id="main7">
+        <div class="container">
+            <h1 class="swift-up-text">Its the time. ABABABABABABABAB. 
+    </h1>
+            <h1 class="swift-up-text chi">爱你世界第一最最好 muaaa~ 今年 明年 年年
+    </h1><br>
+            <h1 class="swift-up-text chi">Wang wang waaa wang wang wang
+    </h1><br>
+            <h1 class="swift-up-text chi">爱迪生❤️
+    </h1>
+            </div>
+    </div>
+    
+
+    <script>
+        const swiftUpElements = document.querySelectorAll('.swift-up-text');
+
+swiftUpElements.forEach(elem => {
+
+	const words = elem.textContent.split(' ');
+	elem.innerHTML = '';
+
+	words.forEach((el, index) => {
+		words[index] = `<span><i>${words[index]}</i></span>`;
+	});
+
+	elem.innerHTML = words.join(' ');
+
+	const children = document.querySelectorAll('span > i');
+	children.forEach((node, index) => {
+		node.style.animationDelay = `${index * .2}s`;
+	});
+
+});
+    </script>
+</body>
+</html>

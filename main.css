@@ -1,10 +1,12 @@
 /* Import and use font Inter */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+/* Import font ZCOOL KuaiLe from Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
 
 
 /* Main has max width, all things within are centered */
 #main {
-    max-width: 1000px;
+    max-width: 70rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -227,3 +229,85 @@ body {
 			width: 250px;
 		}
 	}
+
+
+/* Tennis limit size */
+
+#tennis {
+    max-width:20rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* center this image in the div */
+    align-self: center;
+    text-align: center;
+}
+
+.whitep {
+    color: #ffffff;
+    /* use ZCOOL KuaiLe */
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#main2 {
+    margin-top: 5rem;
+    justify-content: center;
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+#p4 {
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+#pic2 {
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block
+}
+
+#main5 {
+    margin-top: 30px;
+}
+
+#pic3 {
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block
+}
+
+#pic4 {
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block
+}
+
+#pic5 {
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block
+}
+
+#pic6 {
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block
+}
